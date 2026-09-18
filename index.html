@@ -575,8 +575,8 @@ const OB_KEY = 'stakeguard_onboarded_v1';
 const PRO_KEY = 'stakeguard_pro_v1';
 // OWNER_MODE: set true in your own deployed copy so the paywall never applies to you.
 // If you ever ship a separate public/customer build, set this to false in that copy only.
-const OWNER_MODE = true;
-const VALID_PRO_CODES = ['STAKEGUARD-PRO'];
+const OWNER_MODE = false;
+const VALID_PRO_CODES = ['SG-827NYM-PRO', 'SG-B3MU9R-PRO', 'SG-UFR8GR-PRO', 'SG-QN6B3A-PRO', 'SG-PJ8SPD-PRO', 'SG-VVEGYF-PRO', 'SG-GHKQM2-PRO', 'SG-ENHCQX-PRO', 'SG-2W3JRP-PRO', 'SG-CM64G7-PRO', 'SG-HKSVA2-PRO', 'SG-RUZ99V-PRO', 'SG-Y6RSVF-PRO', 'SG-6PY6HE-PRO', 'SG-PJEENU-PRO'];
 
 function fmt(n){ return n.toLocaleString(undefined,{maximumFractionDigits:2}); }
 function escapeHtml(str){ return String(str).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
